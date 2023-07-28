@@ -1,0 +1,19 @@
+<div #pageContent>
+  <ul>
+    <li>
+      <img [src]="user.avatar" height="300px" width="300px" />
+    </li>
+    <li>
+      <label>First Name: {{ user.first_name }}</label>
+    </li>
+    <li>
+      <label>Last Name: {{ user.last_name }}</label>
+    </li>
+    <li>
+      <label>Email: {{ user.email }}</label>
+    </li>
+    <li>
+        <button (click)="downloadPage()" class="btn btn-primary">Download</button>
+    </li>
+  </ul>
+</div>
