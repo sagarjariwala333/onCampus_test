@@ -1,0 +1,16 @@
+/* user-detail.component.css */
+
+.flex-container {
+    display: flex;
+    align-items: center; /* Vertically align items within the container */
+  }
+  
+  .div1 {
+    margin-right: 10px; /* Add spacing between div1 and div2 */
+  }
+
+  .conter{
+    width: 100e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
